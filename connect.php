@@ -2,7 +2,7 @@
 
 $servername = "rdbms.strato.de";
 $username = "U3084260";
-$dbpass = "";
+$dbpass = "Bruiloft1";
 $dbname = "DB3084260";
 
 $err_level = error_reporting(0);

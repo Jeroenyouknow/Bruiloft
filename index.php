@@ -7,9 +7,14 @@
     <body>
         <h1>TEST VERSION RUNNING CURRENTlY</h1>
 
-        <form action="" method="post">
-          <input type="text">
-        </form>
+        <form action="process.php" method="post">
+          Naam: <input type="text" name="naam"><br>
+          Bericht/wens:<textarea name="bericht" rows="10" cols="30"> </textarea>
+          Datum:<input type="datetime-local" name="datum"><br>
+        
+          <input type="submit">
+          <input type="reset">
+      </form>
     </body>
 
 </html>
