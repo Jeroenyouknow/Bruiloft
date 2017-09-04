@@ -1,4 +1,5 @@
 <?php
+header('Refresh: 5; url=index.php');
 include_once('connect.php');
 $naam = $_POST['naam'];
 $bericht = $_POST['bericht'];
@@ -18,7 +19,6 @@ $datum = $_POST['datum'];
          
              if ($db->query($insert) === TRUE) {
                  echo "Je wens/bericht is opgeslagen!";
-                 header('Refresh: 5; url=index.php');
              } else {
                  echo "Error: " . $insert . "<br>" . $db->error;
              }
